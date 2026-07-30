@@ -280,6 +280,76 @@
   </div>
 </section>
 
+<!-- CONTACT FORM matching the new style -->
+<section class="py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-5 sm:px-8">
+    <div class="relative overflow-hidden">
+      <div class="text-center mb-12 relative z-10">
+        <div class="inline-flex items-center gap-2 mb-4">
+          <span class="w-2 h-2 rounded-full bg-[#1d2757]"></span>
+          <span class="text-[#1d2757] font-bold tracking-widest uppercase text-[11px]">Send a message</span>
+        </div>
+        <h2 class="font-sans text-3xl sm:text-4xl font-bold text-[#1d2757] mt-2">We'd love to hear from you</h2>
+      </div>
+      
+      <form id="contact-form" novalidate class="space-y-6 relative z-10 border border-gray-200 p-8 sm:p-10 rounded">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="space-y-2">
+            <label for="name" class="block text-sm font-semibold text-[#1d2757]">Full Name</label>
+            <input id="name" name="name" type="text" placeholder="John Doe" required class="w-full rounded-xl border border-gray-200 px-5 py-4 text-gray-600 focus:border-deskly-ink focus:ring-1 focus:ring-deskly-ink outline-none transition-all bg-white hover:border-deskly-ink/50">
+            <p data-error-for="name" class="hidden text-xs text-red-500 font-medium">Please enter your name.</p>
+          </div>
+          <div class="space-y-2">
+            <label for="email" class="block text-sm font-semibold text-[#1d2757]">Email</label>
+            <input id="email" name="email" type="email" placeholder="john@example.com" required class="w-full rounded-xl border border-gray-200 px-5 py-4 text-gray-600 focus:border-deskly-ink focus:ring-1 focus:ring-deskly-ink outline-none transition-all bg-white hover:border-deskly-ink/50">
+            <p data-error-for="email" class="hidden text-xs text-red-500 font-medium">Please enter a valid email.</p>
+          </div>
+          <div class="space-y-2">
+            <label for="phone" class="block text-sm font-semibold text-[#1d2757]">Phone Number</label>
+            <input id="phone" name="phone" type="tel" placeholder="+971 50 123 4567" required class="w-full rounded-xl border border-gray-200 px-5 py-4 text-gray-600 focus:border-deskly-ink focus:ring-1 focus:ring-deskly-ink outline-none transition-all bg-white hover:border-deskly-ink/50">
+            <p data-error-for="phone" class="hidden text-xs text-red-500 font-medium">Please enter a valid phone number.</p>
+          </div>
+          <div class="space-y-2">
+            <label for="subject" class="block text-sm font-semibold text-[#1d2757]">Subject</label>
+            <div class="relative">
+              <select id="subject" name="subject" required class="w-full rounded-xl border border-gray-200 px-5 py-4 text-gray-600 focus:border-deskly-ink focus:ring-1 focus:ring-deskly-ink outline-none transition-all bg-white hover:border-deskly-ink/50 appearance-none cursor-pointer">
+                <option value="" disabled selected>Select a topic</option>
+                <option>Visa Processing</option>
+                <option>Emirates ID</option>
+                <option>Business Setup</option>
+                <option>Labour &amp; Municipality Services</option>
+                <option>General Enquiry</option>
+                <option>Other</option>
+              </select>
+              <div class="absolute inset-y-0 right-5 flex items-center pointer-events-none text-gray-600">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+              </div>
+            </div>
+            <p data-error-for="subject" class="hidden text-xs text-red-500 font-medium">Please select a subject.</p>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <label for="message" class="block text-sm font-semibold text-[#1d2757]">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required class="w-full rounded-xl border border-gray-200 px-5 py-4 text-gray-600 focus:border-deskly-ink focus:ring-1 focus:ring-deskly-ink outline-none transition-all bg-white hover:border-deskly-ink/50 resize-none"></textarea>
+          <p data-error-for="message" class="hidden text-xs text-red-500 font-medium">Please enter a message.</p>
+        </div>
+
+        <div class="pt-6 flex justify-center">
+          <button type="submit" class="inline-flex items-center gap-3 bg-[#1d2757] text-white font-bold py-4 px-10 rounded-full hover:bg-[#1d2757]/90 shadow-md transition-all text-lg hover:scale-105">
+            Submit Request
+            <span class="w-6 h-6 rounded-full bg-white flex items-center justify-center shrink-0">
+              <svg class="w-3.5 h-3.5 text-[#1d2757]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 12h14M12 5l7 7-7 7"></path></svg>
+            </span>
+          </button>
+        </div>
+        <p id="contact-status" class="mt-4 text-sm font-medium text-center text-[#1d2757]" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+
 <!-- CTA SECTION -->
 <section class="py-24 bg-[#1d2757] relative overflow-hidden">
   <div class="absolute inset-0 z-0 opacity-20">
