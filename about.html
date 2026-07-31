@@ -175,8 +175,24 @@
       </div>
       
       <!-- Right Side: Dark Image -->
-      <div class="w-full flex justify-center lg:justify-end">
-        <img src="images/reiadtyping1.jpeg" alt="AL REIAD Studio and Typing" class="w-full max-w-[500px] h-auto rounded-3xl shadow-[0_20px_50px_-20px_rgba(0,0,0,0.4)] border border-gray-200 object-cover">
+      <div class="relative w-full max-w-[500px] mx-auto lg:ml-auto group mt-10 lg:mt-0">
+        <!-- Decorative background frame -->
+        <div class="absolute inset-0 bg-gradient-to-br from-[#c89f45] to-[#f6eec3] rounded-3xl translate-x-4 translate-y-4 opacity-50 group-hover:translate-x-6 group-hover:translate-y-6 transition-transform duration-500"></div>
+        <!-- Glowing blur behind image -->
+        <div class="absolute inset-0 bg-[#c89f45] rounded-3xl blur-2xl opacity-10 group-hover:opacity-30 transition-opacity duration-500"></div>
+        <!-- Actual Image -->
+        <img src="images/reiadtyping1.jpeg" alt="AL REIAD Studio and Typing" class="w-full h-auto rounded-3xl shadow-[0_20px_50px_-20px_rgba(0,0,0,0.5)] border-4 border-white relative z-10 group-hover:-translate-y-2 transition-transform duration-500 object-cover">
+        
+        <!-- Floating Badge -->
+        <div class="absolute -bottom-6 -left-6 sm:-left-10 bg-white rounded-2xl p-4 shadow-xl border border-gray-100 z-20 flex items-center gap-4 group-hover:-translate-y-4 transition-transform duration-500 delay-100">
+          <div class="w-12 h-12 rounded-full bg-[#fdf8ee] flex items-center justify-center text-[#c89f45]">
+             <i class="fa-solid fa-star text-xl"></i>
+          </div>
+          <div>
+            <p class="font-display font-bold text-[#111111] text-lg leading-tight">30+ Years</p>
+            <p class="text-[10px] text-gray-500 font-bold uppercase tracking-widest mt-0.5">Of Excellence</p>
+          </div>
+        </div>
       </div>
       
     </div>
