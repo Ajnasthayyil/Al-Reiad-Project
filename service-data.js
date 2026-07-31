@@ -3,9 +3,7 @@ const serviceData = {
         "title": "New Residency Visa",
         "description": "Professional and efficient processing for your New Residency Visa. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -23,9 +21,7 @@ const serviceData = {
         "title": "Renew Residency Visa",
         "description": "Professional and efficient processing for your Renew Residency Visa. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -43,9 +39,7 @@ const serviceData = {
         "title": "Cancel Residency Visa",
         "description": "Professional and efficient processing for your Cancel Residency Visa. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -63,9 +57,7 @@ const serviceData = {
         "title": "Golden Visa Nomination",
         "description": "Professional and efficient processing for your Golden Visa Nomination. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -83,9 +75,7 @@ const serviceData = {
         "title": "Golden Visa Full Process",
         "description": "Professional and efficient processing for your Golden Visa Full Process. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -103,9 +93,7 @@ const serviceData = {
         "title": "Transfer Visa To New Passport",
         "description": "Professional and efficient processing for your Transfer Visa To New Passport. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -123,9 +111,7 @@ const serviceData = {
         "title": "Data Modification",
         "description": "Professional and efficient processing for your Data Modification. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -143,9 +129,7 @@ const serviceData = {
         "title": "New Born Visa",
         "description": "Professional and efficient processing for your New Born Visa. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -163,9 +147,7 @@ const serviceData = {
         "title": "Dependents On Hold",
         "description": "Professional and efficient processing for your Dependents On Hold. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -183,9 +165,7 @@ const serviceData = {
         "title": "New Business Consultancy",
         "description": "Professional and efficient processing for your New Business Consultancy. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -203,9 +183,7 @@ const serviceData = {
         "title": "Renew Trade License",
         "description": "Professional and efficient processing for your Renew Trade License. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -223,9 +201,7 @@ const serviceData = {
         "title": "Amend Trade License",
         "description": "Professional and efficient processing for your Amend Trade License. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -243,9 +219,7 @@ const serviceData = {
         "title": "Cancel Trade License",
         "description": "Professional and efficient processing for your Cancel Trade License. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -263,9 +237,7 @@ const serviceData = {
         "title": "Absconding Report",
         "description": "Professional and efficient processing for your Absconding Report. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -283,9 +255,7 @@ const serviceData = {
         "title": "UAE Tourist Visa",
         "description": "Professional and efficient processing for your UAE Tourist Visa. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -303,9 +273,7 @@ const serviceData = {
         "title": "Saudi Arabia Visa",
         "description": "Professional and efficient processing for your Saudi Arabia Visa. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -323,9 +291,7 @@ const serviceData = {
         "title": "Pay Traffic Fines",
         "description": "Professional and efficient processing for your Pay Traffic Fines. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -343,9 +309,7 @@ const serviceData = {
         "title": "Traffic Fines Discount",
         "description": "Professional and efficient processing for your Traffic Fines Discount. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -363,9 +327,7 @@ const serviceData = {
         "title": "Mawaqif Residential Permit",
         "description": "Professional and efficient processing for your Mawaqif Residential Permit. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -383,9 +345,7 @@ const serviceData = {
         "title": "Vehicle Insurance",
         "description": "Professional and efficient processing for your Vehicle Insurance. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -403,9 +363,7 @@ const serviceData = {
         "title": "Vehicle Registration Renewal",
         "description": "Professional and efficient processing for your Vehicle Registration Renewal. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -423,9 +381,7 @@ const serviceData = {
         "title": "Black Points Transfer",
         "description": "Professional and efficient processing for your Black Points Transfer. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -443,9 +399,7 @@ const serviceData = {
         "title": "International Driving License",
         "description": "Professional and efficient processing for your International Driving License. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -463,9 +417,7 @@ const serviceData = {
         "title": "Vehicle Ownership Transfer",
         "description": "Professional and efficient processing for your Vehicle Ownership Transfer. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -483,9 +435,7 @@ const serviceData = {
         "title": "Driving License Renewal",
         "description": "Professional and efficient processing for your Driving License Renewal. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -503,9 +453,7 @@ const serviceData = {
         "title": "Passport Size Photos",
         "description": "Professional and efficient processing for your Passport Size Photos. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -523,9 +471,7 @@ const serviceData = {
         "title": "Emirates ID Application Photos",
         "description": "Professional and efficient processing for your Emirates ID Application Photos. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -543,9 +489,7 @@ const serviceData = {
         "title": "Foreign Country Visa Size Photos",
         "description": "Professional and efficient processing for your Foreign Country Visa Size Photos. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -563,9 +507,7 @@ const serviceData = {
         "title": "Frame Works",
         "description": "Professional and efficient processing for your Frame Works. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -583,9 +525,7 @@ const serviceData = {
         "title": "Photocopies And PDF Services",
         "description": "Professional and efficient processing for your Photocopies And PDF Services. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -603,9 +543,7 @@ const serviceData = {
         "title": "Lamination Services",
         "description": "Professional and efficient processing for your Lamination Services. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -623,9 +561,7 @@ const serviceData = {
         "title": "Photo Album",
         "description": "Professional and efficient processing for your Photo Album. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -643,9 +579,7 @@ const serviceData = {
         "title": "Watch Services",
         "description": "Professional and efficient processing for your Watch Services. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -663,9 +597,7 @@ const serviceData = {
         "title": "Car Keys And Batteries",
         "description": "Professional and efficient processing for your Car Keys And Batteries. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
@@ -683,9 +615,7 @@ const serviceData = {
         "title": "Curriculum Vitae",
         "description": "Professional and efficient processing for your Curriculum Vitae. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
         "documents": [
-            "Valid Passport Copy",
-            "Emirates ID (if applicable)",
-            "Recent Passport Size Photograph"
+            "The specific document requirements will be provided by our responsible expert upon consultation."
         ],
         "steps": [
             "Submit required documents for review.",
