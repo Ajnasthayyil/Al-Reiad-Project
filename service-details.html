@@ -106,9 +106,9 @@
  <div class="h-1 w-20 bg-[#c89f45] mx-auto mt-6 rounded-full"></div>
  </div>
  
- <div class="grid lg:grid-cols-3 gap-16">
+ <div class="max-w-4xl mx-auto flex flex-col gap-12">
  <!-- Left Column: Details -->
- <div class="lg:col-span-2 space-y-8 afu2">
+ <div class="space-y-8 afu2">
  <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
  <h2 class="text-2xl font-bold text-[#111111] mb-4 flex items-center gap-3">
  <span id="service-subtitle">Service Overview</span>
@@ -162,11 +162,11 @@
  </div>
  
  <!-- Right Column: Enquiry Form -->
- <div class="lg:col-span-1 afu3">
- <div class="bg-[#f8f9fa] p-8 rounded-2xl border border-gray-200 shadow-sm sticky top-32">
- <div class="bg-gradient-to-r from-[#c89f45] to-[#dfbb68] text-white text-center py-5 rounded-xl mb-8 shadow-md">
- <h3 class="font-display font-bold text-xl">Quick Enquiry</h3>
- </div>
+ <div class="afu3 mt-6">
+ <div class="bg-[#f8f9fa] p-8 sm:p-12 rounded-2xl border border-gray-200 shadow-sm">
+          <div class="bg-[#111111] text-white text-center py-4 rounded-xl mb-8 shadow-md">
+            <h3 class="font-display font-bold text-xl tracking-wide uppercase text-sm">Quick Enquiry</h3>
+          </div>
  
   <form id="contact-form" novalidate class="space-y-6" onsubmit="event.preventDefault(); alert('Thank you for your enquiry. We will contact you soon.');">
     <div class="space-y-4">
