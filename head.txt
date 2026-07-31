@@ -1,0 +1,49 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | AL REIAD STUDIO TYPING L.L.C-S.P.C</title>
+<meta name="description" content="Explore the comprehensive government typing, business setup, and visa processing services offered by AL REIAD STUDIO TYPING L.L.C-S.P.C in Al Ain.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          'deskly-orange': '#FF7340',
+          'deskly-lime': '#c89f45',
+          'deskly-lime-hover': '#a37e32',
+          'deskly-surface': '#F4F5F5',
+          'deskly-card': '#FFFFFF',
+          'deskly-ink': '#111111',
+          'deskly-ink-light': '#1a1a1a',
+          'deskly-text': '#475569',
+          'deskly-border': '#E2E8F0',
+        },
+        fontFamily: {
+          display: ['Plus Jakarta Sans', 'sans-serif'],
+          body: ['Inter', 'sans-serif']
+        },
+        boxShadow: {
+          'soft': '0 10px 40px -10px rgba(0, 0, 0, 0.05)',
+          'hover': '0 20px 40px -15px rgba(0, 0, 0, 0.08)'
+        }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .afu  { animation: fadeUp 0.7s ease both; }
+  .afu2 { animation: fadeUp 0.7s 0.15s ease both; }
+  .afu3 { animation: fadeUp 0.7s 0.30s ease both; }
+  .afi  { animation: fadeIn 0.9s 0.45s ease both; }
+</style>
+</head>
