@@ -91,7 +91,7 @@ function wireForm(formId, statusId) {
     }
 
     if (status) {
-      status.textContent = 'Thank you — your message has been received. Our team will contact you shortly.';
+      status.textContent = 'Thank you â€” your message has been received. Our team will contact you shortly.';
       status.className = 'mt-4 text-sm font-medium text-teal-700';
     }
     form.reset();
@@ -105,4 +105,64 @@ wireForm('career-form', 'career-status');
 // ---------- Set current year in footer ----------
 document.querySelectorAll('[data-year]').forEach((el) => {
   el.textContent = new Date().getFullYear();
-});
+});// ---------- Custom Google Translate Widget ----------
+function loadCustomTranslate() {
+  // 1. Create the hidden google translate div
+  const translateDiv = document.createElement('div');
+  translateDiv.id = 'google_translate_element';
+  document.body.appendChild(translateDiv);
+
+  // 2. Load Google script
+  const script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+  document.body.appendChild(script);
+
+  window.googleTranslateElementInit = function() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  };
+
+  // 3. Create Custom UI
+  const customUi = document.createElement('div');
+  customUi.id = 'custom-lang-selector';
+  customUi.innerHTML = `
+    <i class="fa-solid fa-globe"></i>
+    <span id="current-lang">English</span>
+    <i class="fa-solid fa-chevron-down" style="font-size: 0.8rem; margin-left: 4px; color: #9ca3af;"></i>
+    <div class="lang-dropdown" id="lang-dropdown">
+      <div class="lang-option" data-lang="en">English</div>
+      <div class="lang-option" data-lang="ar">Arabic (العربية)</div>
+      <div class="lang-option" data-lang="hi">Hindi (हिन्दी)</div>
+      <div class="lang-option" data-lang="ml">Malayalam (മലയാളം)</div>
+    </div>
+  `;
+  document.body.appendChild(customUi);
+
+  // 4. Handle clicks
+  customUi.addEventListener('click', (e) => {
+    if (e.target.closest('.lang-option')) {
+      const langCode = e.target.closest('.lang-option').dataset.lang;
+      const langName = e.target.closest('.lang-option').textContent.split(' ')[0];
+      document.getElementById('current-lang').textContent = langName;
+      
+      // Trigger Google Translate
+      const googleSelect = document.querySelector('.goog-te-combo');
+      if (googleSelect) {
+        googleSelect.value = langCode;
+        googleSelect.dispatchEvent(new Event('change'));
+      }
+    }
+    document.getElementById('lang-dropdown').classList.toggle('show');
+  });
+
+  // Close dropdown on outside click
+  document.addEventListener('click', (e) => {
+    if (!customUi.contains(e.target)) {
+      document.getElementById('lang-dropdown').classList.remove('show');
+    }
+  });
+}
+
+// Initialize immediately
+loadCustomTranslate();
+
