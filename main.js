@@ -118,8 +118,8 @@ function loadCustomTranslate() {
   script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
   document.body.appendChild(script);
 
-  window.googleTranslateElementInit = function() {
-    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  window.googleTranslateElementInit = function () {
+    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
   };
 
   // 3. Create Custom UI
@@ -144,7 +144,7 @@ function loadCustomTranslate() {
       const langCode = e.target.closest('.lang-option').dataset.lang;
       const langName = e.target.closest('.lang-option').textContent.split(' ')[0];
       document.getElementById('current-lang').textContent = langName;
-      
+
       // Trigger Google Translate
       const googleSelect = document.querySelector('.goog-te-combo');
       if (googleSelect) {
