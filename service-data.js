@@ -287,6 +287,26 @@ const serviceData = {
             "Fees are subject to change based on official updates."
         ]
     },
+    "flight-ticketing": {
+        "title": "Flight Ticketing",
+        "description": "Reliable and fast flight ticketing services. We help you find the best routes, times, and prices to ensure a seamless travel experience.",
+        "documents": [
+            "Passport copy of the passenger.",
+            "Travel dates and destination details.",
+            "Any specific airline or seat preferences."
+        ],
+        "steps": [
+            "Provide us with your travel dates and destinations.",
+            "We will search for the best available flight options.",
+            "Confirm the booking and make the payment.",
+            "Receive your e-ticket instantly."
+        ],
+        "points": [
+            "Ensure passport is valid for at least 6 months.",
+            "Flight prices and availability are subject to change until booked.",
+            "Check visa requirements for your destination before booking."
+        ]
+    },
     "pay-traffic-fines": {
         "title": "Pay Traffic Fines",
         "description": "Professional and efficient processing for your Pay Traffic Fines. We ensure all requirements are met and handle the end-to-end process to save you time and effort.",
